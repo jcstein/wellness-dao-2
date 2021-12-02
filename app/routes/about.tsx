@@ -19,8 +19,8 @@ export default function Index() {
       <div className="about__intro">
         <h2>About Us</h2>
         <p>
-          Ok, so this page isn't really <em>about us</em>, but we did want to
-          tell you how this project started.
+          Ok, so this page isn't really <em>about us</em> (yet), but we did want
+          to tell you how this project started.
         </p>
         <p>
           We'll have more coming soon, but <em>for now</em>{" "}

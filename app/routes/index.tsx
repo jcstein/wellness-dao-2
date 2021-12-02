@@ -14,15 +14,15 @@ export let loader: LoaderFunction = () => {
   let data: IndexData = {
     resources: [
       {
-        name: "Get Help Now, access Free Resources Today",
+        name: "Get Help Now >>> access Free Resources today",
         url: "https://checkpoint.carrd.co/",
       },
       {
-        name: "Telegram, join us anonymously",
+        name: "Telegram >>> join us anonymously",
         url: "https://t.me/joinchat/VVzBgaurKJUyMjZh",
       },
       {
-        name: "Discord, join our community",
+        name: "Discord >>> join our community",
         url: "https://discord.gg/euvTV2F8",
       },
     ],
@@ -54,7 +54,7 @@ export default function Index() {
     <div className="remix__page">
       <main>
         <h2>Welcome to Wellness DAO!</h2>
-        <p>We're happy that you're here. 🥳</p>
+        <p>We're happy that you're here ❤️</p>
         <p>
           We are building a DAO dedicated to normalizing Mental-Health Care and
           providing Resources as a Public Good and shatter the stigmas that
@@ -62,9 +62,7 @@ export default function Index() {
         </p>
         <p>
           Our goal is to build community-driven wellness. Check out our
-          suggested links, and then just delete the{" "}
-          <code>app/routes/demos</code> and <code>app/styles/demos</code>{" "}
-          folders when you're ready to turn this into your next project.
+          suggested links to get started.
         </p>
       </main>
       <aside>
