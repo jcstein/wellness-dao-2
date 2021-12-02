@@ -14,32 +14,24 @@ export let loader: LoaderFunction = () => {
   let data: IndexData = {
     resources: [
       {
-        name: "Remix Docs",
-        url: "https://remix.run/docs"
+        name: "Get Help Now, access Free Resources Today",
+        url: "https://checkpoint.carrd.co/",
       },
       {
-        name: "React Router Docs",
-        url: "https://reactrouter.com/docs"
+        name: "Telegram, join us anonymously",
+        url: "https://t.me/joinchat/VVzBgaurKJUyMjZh",
       },
       {
-        name: "Remix Discord",
-        url: "https://discord.gg/VBePs6d"
-      }
+        name: "Discord, join our community",
+        url: "https://discord.gg/euvTV2F8",
+      },
     ],
     demos: [
       {
-        to: "demos/actions",
-        name: "Actions"
+        to: "/about",
+        name: "About Wellness DAO",
       },
-      {
-        to: "demos/about",
-        name: "Nested Routes, CSS loading/unloading"
-      },
-      {
-        to: "demos/params",
-        name: "URL Params and Error Boundaries"
-      }
-    ]
+    ],
   };
 
   // https://remix.run/api/remix#json
@@ -50,7 +42,7 @@ export let loader: LoaderFunction = () => {
 export let meta: MetaFunction = () => {
   return {
     title: "Remix Starter",
-    description: "Welcome to remix!"
+    description: "Welcome to Wellness DAO!",
   };
 };
 
@@ -61,36 +53,36 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
-        <h2>Welcome to Remix!</h2>
-        <p>We're stoked that you're here. 🥳</p>
+        <h2>Welcome to Wellness DAO!</h2>
+        <p>We're happy that you're here. 🥳</p>
         <p>
-          Feel free to take a look around the code to see how Remix does things,
-          it might be a bit different than what you’re used to. When you're
-          ready to dive deeper, we've got plenty of resources to get you
-          up-and-running quickly.
+          We are building a DAO dedicated to normalizing Mental-Health Care and
+          providing Resources as a Public Good and shatter the stigmas that
+          surround getting help.
         </p>
         <p>
-          Check out all the demos in this starter, and then just delete the{" "}
+          Our goal is to build community-driven wellness. Check out our
+          suggested links, and then just delete the{" "}
           <code>app/routes/demos</code> and <code>app/styles/demos</code>{" "}
           folders when you're ready to turn this into your next project.
         </p>
       </main>
       <aside>
-        <h2>Demos In This App</h2>
+        <h2>Resources</h2>
         <ul>
-          {data.demos.map(demo => (
+          {data.resources.map((resource) => (
+            <li key={resource.url} className="remix__page__resource">
+              <a href={resource.url}>{resource.name}</a>
+            </li>
+          ))}
+        </ul>
+        <h2>More</h2>
+        <ul>
+          {data.demos.map((demo) => (
             <li key={demo.to} className="remix__page__resource">
               <Link to={demo.to} prefetch="intent">
                 {demo.name}
               </Link>
-            </li>
-          ))}
-        </ul>
-        <h2>Resources</h2>
-        <ul>
-          {data.resources.map(resource => (
-            <li key={resource.url} className="remix__page__resource">
-              <a href={resource.url}>{resource.name}</a>
             </li>
           ))}
         </ul>

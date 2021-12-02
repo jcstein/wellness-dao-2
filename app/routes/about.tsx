@@ -5,7 +5,7 @@ import stylesUrl from "~/styles/demos/about.css";
 
 export let meta: MetaFunction = () => {
   return {
-    title: "About Remix"
+    title: "About Remix",
   };
 };
 
@@ -20,19 +20,12 @@ export default function Index() {
         <h2>About Us</h2>
         <p>
           Ok, so this page isn't really <em>about us</em>, but we did want to
-          show you a few more things Remix can do.
+          tell you how this project started.
         </p>
         <p>
-          Did you notice that things look a little different on this page? The
-          CSS that we import in the route file and include in its{" "}
-          <code>links</code> export is only included on this route and its
-          children.
-        </p>
-        <p>
-          Wait a sec...<em>its children</em>? To understand what we mean by
-          this,{" "}
-          <a href="https://remix.run/tutorial/4-nested-routes-params">
-            read all about nested routes in the docs
+          We'll have more coming soon, but <em>for now</em>{" "}
+          <a href="https://mirror.xyz/joshcs.eth/gOIvBzBkt5pHL5DxPJTWkIKKXAUmfOAAQS0kZcoWj6Q">
+            here's a bit about what spurred the idea
           </a>
           .
         </p>
