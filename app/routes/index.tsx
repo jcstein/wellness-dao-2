@@ -14,15 +14,15 @@ export let loader: LoaderFunction = () => {
   let data: IndexData = {
     resources: [
       {
-        name: "Get Help Now >>> access Free Resources today",
+        name: "Get Help Now ➡️ access Free Resources today",
         url: "https://checkpoint.carrd.co/",
       },
       {
-        name: "Telegram >>> join us anonymously",
+        name: "Telegram ➡️ join us anonymously",
         url: "https://t.me/joinchat/VVzBgaurKJUyMjZh",
       },
       {
-        name: "Discord >>> join our community",
+        name: "Discord ➡️ join our community",
         url: "https://discord.gg/euvTV2F8",
       },
     ],
@@ -41,7 +41,7 @@ export let loader: LoaderFunction = () => {
 // https://remix.run/api/conventions#meta
 export let meta: MetaFunction = () => {
   return {
-    title: "Remix Starter",
+    title: "Wellness DAO",
     description: "Welcome to Wellness DAO!",
   };
 };
@@ -53,12 +53,13 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
-        <h2>Welcome to Wellness DAO!</h2>
-        <p>We're happy that you're here ❤️</p>
+        <h2>❤️ Welcome to Wellness DAO!</h2>
+        <p>We're happy that you're here</p>
         <p>
-          We are building a DAO dedicated to normalizing Mental-Health Care and
-          providing Resources as a Public Good and shatter the stigmas that
-          surround getting help.
+          We are building a{" "}
+          <a href="https://www.glosseta.com/search?term=dao">DAO</a> dedicated
+          to normalizing Mental-Health Care and providing Resources as a Public
+          Good and shatter the stigmas that surround getting help.
         </p>
         <p>
           Our goal is to build community-driven wellness. Check out our
