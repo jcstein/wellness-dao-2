@@ -108,6 +108,11 @@ function Document({
         {title ? <title>{title}</title> : null}
         <Meta />
         <Links />
+        <script
+          defer
+          data-domain="wellnessdao.xyz"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
       </head>
       <body>
         {children}
