@@ -53,7 +53,7 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
-        <h2>❤️ Welcome to Wellness DAO!</h2>
+        <h2>Welcome to Wellness DAO!</h2>
         <p>We're happy that you're here</p>
         <p>
           We are building a{" "}
