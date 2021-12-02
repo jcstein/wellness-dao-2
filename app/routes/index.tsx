@@ -54,7 +54,7 @@ export default function Index() {
     <div className="remix__page">
       <main>
         <h2>Welcome to Wellness DAO!</h2>
-        <p>We're happy that you're here</p>
+        <p>We're happy that you're here.</p>
         <p>
           We are building a{" "}
           <a href="https://www.glosseta.com/search?term=dao">DAO</a> dedicated
