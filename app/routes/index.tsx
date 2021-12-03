@@ -63,7 +63,7 @@ export default function Index() {
         </p>
         <p>
           Our goal is to build community-driven wellness. Check out our
-          suggested links to get started.
+          Resources to get started.
         </p>
       </main>
       <aside>
