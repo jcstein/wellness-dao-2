@@ -110,7 +110,7 @@ function Document({
         <Links />
         <script
           defer
-          data-domain="wellnessdao.xyz"
+          data-domain="blockify.shop"
           src="https://plausible.io/js/plausible.js"
         ></script>
       </head>
@@ -150,7 +150,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <footer className="remix-app__footer">
         <div className="container remix-app__footer-content">
           <a href="https://twitter.com/wellness_dao">
-            follow Wellness DAO on Twitter
+            follow blockify.shop on Twitter
           </a>
         </div>
       </footer>
@@ -171,7 +171,7 @@ function RemixLogo() {
       height="47"
       fill="currentColor"
     >
-      <title id="wellness0d">Wellness DAO</title>
+      <title id="wellness0d">blockify.shop</title>
       <path
         class="cls-1"
         d="M23.74,64.94,38.2,96.67l15-31.73h13.4l15,32.67L96.85,64.94h23.62L89,125.23H74.75l-15-33-14.34,33H30.91L0,64.94Z"

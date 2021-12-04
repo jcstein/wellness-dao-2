@@ -29,7 +29,7 @@ export let loader: LoaderFunction = () => {
     demos: [
       {
         to: "/about",
-        name: "About Wellness DAO",
+        name: "about blockify shop",
       },
     ],
   };
@@ -41,8 +41,8 @@ export let loader: LoaderFunction = () => {
 // https://remix.run/api/conventions#meta
 export let meta: MetaFunction = () => {
   return {
-    title: "Wellness DAO",
-    description: "Welcome to Wellness DAO!",
+    title: "blockify",
+    description: "welcome to blockify!",
   };
 };
 
@@ -53,18 +53,8 @@ export default function Index() {
   return (
     <div className="remix__page">
       <main>
-        <h2>Welcome to Wellness DAO!</h2>
-        <p>We're happy that you're here.</p>
-        <p>
-          We are building a{" "}
-          <a href="https://www.glosseta.com/search?term=dao">DAO</a> dedicated
-          to normalizing Mental-Health Care and providing Resources as a Public
-          Good and shatter the stigmas that surround getting help.
-        </p>
-        <p>
-          Our goal is to build community-driven wellness. Check out our
-          Resources to get started.
-        </p>
+        <h2>welcome to blockify!</h2>
+        <p>we're building eCommerce solutions on the Blockchain.</p>
       </main>
       <aside>
         <h2>Resources</h2>
