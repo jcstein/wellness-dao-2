@@ -29,7 +29,7 @@ export let loader: LoaderFunction = () => {
     demos: [
       {
         to: "/about",
-        name: "About Wellness DAO",
+        name: "about blockify",
       },
     ],
   };
@@ -41,8 +41,8 @@ export let loader: LoaderFunction = () => {
 // https://remix.run/api/conventions#meta
 export let meta: MetaFunction = () => {
   return {
-    title: "Wellness DAO",
-    description: "Welcome to Wellness DAO!",
+    title: "blockify.shop",
+    description: "welcome to blockify.shop!",
   };
 };
 
