@@ -24,8 +24,8 @@ export default function Index() {
         </p>
         <p>
           We'll have more coming soon, but <em>for now</em>{" "}
-          <a href="https://mirror.xyz/joshcs.eth/gOIvBzBkt5pHL5DxPJTWkIKKXAUmfOAAQS0kZcoWj6Q">
-            here's a bit about what spurred the idea
+          <a href="https://twitter.com/FarzaTV/status/1466967658348400643?s=20">
+            here's a bit about what sparked the idea
           </a>
           .
         </p>

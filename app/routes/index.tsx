@@ -14,16 +14,12 @@ export let loader: LoaderFunction = () => {
   let data: IndexData = {
     resources: [
       {
-        name: "Get Help Now ➡️ access Free Resources today",
-        url: "https://checkpoint.carrd.co/",
-      },
-      {
-        name: "Telegram ➡️ join us anonymously",
-        url: "https://t.me/joinchat/VVzBgaurKJUyMjZh",
+        name: "visit our GitHub",
+        url: "https://github.com/jcstein/blockify",
       },
       {
         name: "Discord ➡️ join our community",
-        url: "https://discord.gg/euvTV2F8",
+        url: "https://discord.gg",
       },
     ],
     demos: [
@@ -54,7 +50,7 @@ export default function Index() {
     <div className="remix__page">
       <main>
         <h2>welcome to blockify!</h2>
-        <p>we're building eCommerce solutions on the Blockchain.</p>
+        <p>we're building eCommerce solutions on the Blockchain</p>
       </main>
       <aside>
         <h2>Resources</h2>
