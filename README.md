@@ -1,4 +1,4 @@
-# welcome to blockify.shop!
+# welcome to Wellness DAO!
 
 - [Remix Docs](https://remix.run/docs)
 
