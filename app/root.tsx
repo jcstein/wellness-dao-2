@@ -167,8 +167,8 @@ function RemixLogo() {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       aria-labelledby="wellness-dao"
       role="img"
-      width="166"
-      height="47"
+      width="175"
+      height="38.75"
       fill="currentColor"
     >
       <title id="wellness0d">Wellness DAO</title>
