@@ -21,10 +21,10 @@ export let loader: LoaderFunction = () => {
         name: "Telegram ➡️ join us anonymously",
         url: "https://t.me/joinchat/VVzBgaurKJUyMjZh",
       },
-      {
-        name: "Discord ➡️ join our community",
-        url: "https://discord.gg/euvTV2F8",
-      },
+      // {
+      //   name: "Discord ➡️ join our community",
+      //   url: "https://discord.gg/euvTV2F8",
+      // },
     ],
     demos: [
       {
@@ -61,10 +61,8 @@ export default function Index() {
           to normalizing Mental-Health Care and providing Resources as a Public
           Good and shatter the stigmas that surround getting help.
         </p>
-        <p>
-          Our goal is to build community-driven wellness. Check out our
-          Resources to get started.
-        </p>
+        <p>Our goal is to build a System of Community-Driven Wellness.</p>
+        <p>Check out our Resources to get started.</p>
       </main>
       <aside>
         <h2>Resources</h2>
