@@ -21,6 +21,10 @@ export let loader: LoaderFunction = () => {
         name: "Telegram ➡️ join us anonymously",
         url: "https://t.me/joinchat/VVzBgaurKJUyMjZh",
       },
+      {
+        name: "Wellness Token Governance Demo",
+        url: "https://enter.wellnessdao.xyz/",
+      },
       // {
       //   name: "Discord ➡️ join our community",
       //   url: "https://discord.gg/euvTV2F8",
