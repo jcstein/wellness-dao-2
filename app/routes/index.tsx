@@ -22,12 +22,12 @@ export let loader: LoaderFunction = () => {
         url: "https://t.me/joinchat/VVzBgaurKJUyMjZh",
       },
       {
-        name: "Wellness Token Governance Demo",
-        url: "https://enter.wellnessdao.xyz/",
-      },
-      {
         name: "Discord ➡️ join our community",
         url: "https://discord.gg/3ZDtHsSvBA",
+      },
+      {
+        name: "Wellness Token Governance Demo",
+        url: "https://enter.wellnessdao.xyz/",
       },
     ],
     demos: [
