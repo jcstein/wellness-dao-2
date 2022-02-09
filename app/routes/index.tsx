@@ -25,10 +25,10 @@ export let loader: LoaderFunction = () => {
         name: "Wellness Token Governance Demo",
         url: "https://enter.wellnessdao.xyz/",
       },
-      // {
-      //   name: "Discord ➡️ join our community",
-      //   url: "https://discord.gg/euvTV2F8",
-      // },
+      {
+        name: "Discord ➡️ join our community",
+        url: "https://discord.gg/3ZDtHsSvBA",
+      },
     ],
     demos: [
       {
