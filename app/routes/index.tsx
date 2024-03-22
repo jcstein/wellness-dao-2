@@ -27,7 +27,7 @@ export let loader: LoaderFunction = () => {
       },
       {
         name: "Wellness Token Governance Demo",
-        url: "https://enter.wellnessdao.xyz/",
+        url: "https://wellness-dao-2.vercel.app",
       },
     ],
     demos: [
